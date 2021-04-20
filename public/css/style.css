@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: salmon
+}
+
+#tables,#waitlist {
+    display: flex;
+}
+
+.card {
+    width:20%;
+    background:white;
+    border-radius:3px;
+    box-shadow:5px 5px 20px black;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center
+
+}
